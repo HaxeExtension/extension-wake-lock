@@ -7,6 +7,6 @@
         "description": "OpenFL wake lock extension for Android.",
         "dependencies": {
         },
-        "version": "1.0.0",
-        "releasenote": "first release... working!"
+        "version": "1.0.1",
+        "releasenote": "fix java folder"
 }
