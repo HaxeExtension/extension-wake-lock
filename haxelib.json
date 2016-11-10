@@ -1,0 +1,12 @@
+{
+        "name": "extension-wake-lock",
+        "url": "",
+        "license": "MIT",
+        "contributors":["jbengochea", "fbricker"],
+        "tags": ["social","api","wake-lock","android","games","openfl"],
+        "description": "OpenFL wake lock extension for Android.",
+        "dependencies": {
+        },
+        "version": "0.1.0",
+        "releasenote": ""
+}
