@@ -1,31 +1,38 @@
-#extension-android-immersive
+#extension-wake-lock
 
-Lime extension for enabling immersive mode on most Android devices.
+Lime extension for enabling / disabling automatic screen lock on Android.
 
 ###Main Features
 
-* Immersive mode for Android ICS and later
-* Hiding of status bar and soft navigation keys
-* Low profile mode for devices with soft keys hiding disabled
+* Enable automatic screen locking.
+* Disable automatic screen locking.
 
 ###How to Install
 
 To install this library, you can simply get the library from haxelib like this:
 ```bash
-haxelib install extension-android-immersive
+haxelib install extension-wake-lock
 ```
 
 ###How to Use
 
 To use this extension, simply add the next line in the project.xml
 ```xml
-<haxelib name="extension-android-immersive" />
+<haxelib name="extension-wake-lock" />
 ```
-And target the sdk version 19, by adding the following lines in the project.xml
-```xml
-<section if="android">
-	<android target-sdk-version="19" />
-</section>
+Then, on your hace code:
+
+
+```haxe
+
+function someFunction(){
+	// to disable screen Lock
+	extension.wakeLock.WakeLock.allowScreenTimeout = false;
+
+	// to enable screen Lock
+	extension.wakeLock.WakeLock.allowScreenTimeout = true;
+}
+
 ```
 
 ###License
