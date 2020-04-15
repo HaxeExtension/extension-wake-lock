@@ -1,20 +1,20 @@
-#extension-wake-lock
+# extension-wake-lock
 
 Lime extension for enabling / disabling automatic screen lock on Android.
 
-###Main Features
+### Main Features
 
 * Enable automatic screen locking.
 * Disable automatic screen locking.
 
-###How to Install
+### How to Install
 
 To install this library, you can simply get the library from haxelib like this:
 ```bash
 haxelib install extension-wake-lock
 ```
 
-###How to Use
+### How to Use
 
 To use this extension, simply add the next line in the project.xml
 ```xml
@@ -35,7 +35,7 @@ function someFunction(){
 
 ```
 
-###License
+### License
 
 The MIT License (MIT) - [LICENSE.md](LICENSE.md)
 
